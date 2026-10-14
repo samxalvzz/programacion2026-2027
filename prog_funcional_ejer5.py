@@ -8,18 +8,14 @@ Copyright (c) 2026 Samuel Álvarez
 Este programa se distribuye bajo la liciencia GNU GPL v3.
 """
 
-# Datos de entrada
-
-dato1 = 7 
+# Datos de entrada:
+dato1 = 7
 dato2 = 4
 
-# Datos de salida
-
-# Esto es en valor ternario, el otro ejemplo que hicimos estaba bien, era el siguiente, esta abajo.
-
-primero = dato1 if dato1 < dato2 else dato2
+# Datos de salida:
+primero = dato1 if dato1 < dato2 else dato2 # Esto seria ternario, se puede hacer asi también, pero es fácil como lo que dejaré en lo último
 segundo = dato1 if dato1 > dato2 else dato1
-# segundo = dato1 if dato1 >= dato2 else dato2
+# segundo = dato1 if dato1 >= dato2 else dato1
 
 """
 primero = min(dato1, dato2)

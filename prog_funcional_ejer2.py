@@ -14,4 +14,4 @@ from math import pi
 r: float = 5.0 # El radio de la esfera
 
 # Datos de salida:
-volumen: float = (4.0 / 3.0)  * pi * (r ** 3) # El volumen
+volumen: float = (4.0 / 3.0) * pi * (r ** 3) # El volumen
