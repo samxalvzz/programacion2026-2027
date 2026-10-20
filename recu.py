@@ -13,3 +13,10 @@ ultimo = lambda s: s if len(s) == 1 else ultimo(s[1:])
 digitos = lambda n: 1 if n < 10 else 1 + digitos(n // 10)
 
 suma_digitos = lambda n: n if n < 10 else (n % 10) + suma_digitos(n // 10)
+
+cuantos = lambda e, t: 0 if t == () else \
+                       (1 if t[0] == e else 0) + cuantos(e, t[1:])
+
+fib = lambda n: 0 if n == 0 else \
+                1 if n == 0 else \
+                fib(n - 1) + fib(n - 2)
